@@ -1,6 +1,9 @@
-# !nformed!
+# Legislation Watch
 
 An app for people who want to know what happens in congress about issues they care about. The app fetches the latest bills drafted in congress and delivers them to each user's in-app dashboard, and email. 
+
+![Screencast of App]
+(http://i.imgur.com/XCValfq.gif)
 
 ## Team
 

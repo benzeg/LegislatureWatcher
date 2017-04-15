@@ -1,3 +1,11 @@
+////////////////////////////////////////////////////////////////////////////////
+// UserDashBoardKeywordsEntryBar.jsx
+// --------------------------
+// This is the component "bar" that allows users to add a new monitored keyword
+//
+// It relies on its parent component to handle actual submit events
+////////////////////////////////////////////////////////////////////////////////
+
 const React = require('react');
 
 class UserDashBoardKeywordsEntryBar extends React.Component {
@@ -14,7 +22,8 @@ class UserDashBoardKeywordsEntryBar extends React.Component {
   }
 
   handleKeywordSubmit(event) {
-    console.log(this.userMonitorKeywords);
+    event.preventDefault();
+    this.props.onAddMonitoredWords(this.userMonitorKeywords);
   }
 
   render() {
