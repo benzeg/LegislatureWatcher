@@ -17,6 +17,8 @@ title: Legislature Watcher
 description: A legislation bill tracker # this means to ignore newlines until "baseurl:"
 baseurl: # the subpath of your site, e.g. /blog
 url: https://benzeg.github.io/LegislatureWatcher # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Benze_Gong
+github_username:  benzeg
 # Build settings
 theme: jekyll-theme-midnight
 markdown: kramdown
